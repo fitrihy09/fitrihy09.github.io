@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.container {
+  background-color: black;
+  font-family: Optima, sans-serif;
+}
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+.icon {
+  color: white;
+  float: left;
+  position: relative;
+  top: 10px;
+}
+h1 {
+	font-family: Snell Roundhand, cursive;
+	font-size: 60px;
+}
+h2 {
+  color: #bfacad;
+}
+.NoClass {
+  color: gray;
+  opacity: 0.5;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  border-style: solid;
+  margin: 0px;
+  border-width: 4px 8px 4px 8px;;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.programs {
+	clear: both;
+	background-color: white;
+  border-style: solid;
+  padding: 6px;
+  border-width: 4px 8px 4px 8px;;
+}
+.sign-up {
+	clear: both;
+  background-color: white;
+	border-style: solid;
+  color: black;
+	padding: 6px;
+	border-width: 4px 8px 16px 8px;
+}
+a:link {
+  color: #bfacad;
+ }
+
+a:visited {
+  color: pink;  
+}
+
+a:hover {
+text-decoration: none;
+}
+
+a:active {
+  color: red;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
